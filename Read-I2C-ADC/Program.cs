@@ -2,7 +2,7 @@
 
 using Read_I2C_ADC;
 
-var reader = new Reader(0, 0x48);
+var reader = new Reader(1, 0x48);
 while (true) {
     Console.WriteLine($"Reading: {reader.Read()}");
 }
